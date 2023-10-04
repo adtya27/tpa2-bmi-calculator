@@ -1,0 +1,64 @@
+body {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bmi {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+}
+
+h4 {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  color: black;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+p {
+  font-size: 20px;
+}
+.form-group label {
+  display: flex;
+  margin: 2rem 0 0.5rem 0;
+  font-size: 18px;
+}
+
+#form-Bmi input[type='text'] {
+  padding-top: 0%;
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 55px;
+}
+
+#height {
+  padding-top: 0;
+}
+
+.button {
+  color: white;
+  display: grid;
+  height: 40px;
+  background-color: #008cba;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+}
